@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>test proj</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header id="header" class="header">
+         <div class="_container">
+            <div class="header__container">
+               <a href="#popup" class="header__popup popup-link">Модалка</a>
+               <div class="header__menu menu">
+                  <div class="menu__icon menu-icon">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+                  <nav class="menu__body">
+                     <ul class="menu__list">
+                        <li><a href="#" class="menu__link">Первый пункт</a></li>
+                        <li><a href="#" class="menu__link">Второй пункт</a></li>
+                        <li>
+                           <!-- <a href="" class="menu__link">Список</a>-->
+
+                           <span class="menu__link menu__active">Список</span>
+                           <span class="menu__arrow menu__active"></span>
+                           <ul class="sub-menu__list">
+                              <li><a href="#" class="sub-menu__link">Первый подпункт</a></li>
+                              <li><a href="#" class="sub-menu__link">Второй подпункт</a></li>
+                              <li><a href="#" class="sub-menu__link">Третий подпункт</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="#" class="menu__link">Третий пункт</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="page">
+
+         <section class="section section__page_1">
+            <div class="section__content">
+               <div class="section__container _container">
+                  <div class="section__body">
+                     <h1 class="section__title">Привет</h1>
+                     <div class="section__text">
+                        <p>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsum officiis vero,
+                           praesentium
+                           quaerat suscipit debitis necessitatibus eaque, possimus quam voluptatibus, iusto distinctio
+                           et
+                           accusamus cupiditate exercitationem amet blanditiis. Quos.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section__image">
+               <img class="section__img" src="img/010101.jpg" alt="">
+            </div>
+         </section>
+
+
+         <div class="_cantainer">
+            <div class="slider">
+               <div class="slider__container">
+                  <div class="slider__body">
+                     <div class="slider__images">
+                        <div class="first-slider slider__img"><img src="img/css3.jpg" alt="x"></div>
+                        <div class="slider__img"><img src="img/html5.jpg" alt="x"></div>
+                        <div class="_vis"><img src="img/HW.jpg" alt="x"></div>
+                        <div class="slider__img"><img src="img/javascript.jpg" alt="x"></div>
+                        <div class="last-slider slider__img"><img src="img/react.jpg" alt="x"></div>
+                     </div>
+                     <div class="slider__control">
+                        <div class="slider__control_btn slider__control_prev"></div>
+                        <div class="slider__control_dots">
+                           <span class="first-dot control_dot"></span>
+                           <span class="control_dot"></span>
+                           <span class="control_dot _dotActive"></span>
+                           <span class="control_dot"></span>
+                           <span class="last-dot control_dot"></span>
+                        </div>
+                        <div class="slider__control_btn slider__control_next"></div>
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+         </div>
+      </main>
+
+      <div id='popup' class="popup">
+         <div class="popup__body">
+            <div class="popup__content">
+               <a href="#header" class="popup__close close-popup">X</a>
+               <div class="popup__title">Модальное окно</div>
+               <div class="popup__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil repellendus perspiciatis non
+                  molestias amet aspernatur, sit asperiores facere tempore a labore fugit. Necessitatibus excepturi,
+                  labore corrupti dignissimos nemo vel exercitationem.
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
